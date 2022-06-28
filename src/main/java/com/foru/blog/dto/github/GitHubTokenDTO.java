@@ -1,0 +1,1 @@
+package com.foru.blog.dto.github;import lombok.Builder;import lombok.Data;/** * @ClassName GiteeTokenDTO * @Author 9527 */@Data@Builderpublic class GitHubTokenDTO {    private String accessToken;    private String appId;    private String redirectUrl;    private String appSecret;    private String code;    private Integer expires;}
